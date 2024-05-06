@@ -1,0 +1,637 @@
+.row {
+	
+	max-width: 75rem;
+	
+}
+
+p {
+	
+	margin-bottom: 1rem;
+	
+}
+
+li.mega-current-menu-ancestor a{
+ 
+color: #fff !important; 
+background-color: #000 !important; 
+ 
+}
+
+.mega-current_page_ancestor li a{
+ 
+ background-color: inherit !important;
+ 
+}
+
+.mega-sub-menu li a{
+ 
+ background-color: inherit !important;
+ color: inherit !important;
+ 
+}
+
+#mega-menu-wrap-mainmenu #mega-menu-mainmenu li.mega-menu-item.mega-menu-megamenu ul.mega-sub-menu li ul.mega-sub-menu li a {
+ 
+border-bottom: 1px solid #c1c1c1 !important; 
+ 
+
+}
+
+#mega-menu-wrap-mainmenu #mega-menu-mainmenu li.mega-menu-item.mega-menu-megamenu ul.mega-sub-menu li ul.mega-sub-menu li ul.mega-sub-menu li ul.mega-sub-menu {
+
+    display: none !important;
+
+}
+
+#mega-menu-item-1077 ul.mega-sub-menu li.mega-menu-row,
+#mega-menu-item-1080 ul.mega-sub-menu li.mega-menu-row,
+#mega-menu-item-1079 ul.mega-sub-menu li.mega-menu-row,
+#mega-menu-item-1081 ul.mega-sub-menu li.mega-menu-row,
+#mega-menu-item-100 ul.mega-sub-menu li.mega-menu-row{
+ 
+border-top: 5px solid #fe5200 !important; 
+border-bottom: 5px solid #fe5200 !important;
+min-height: 350px !important;
+ 
+}
+
+#mega-menu-item-1077 ul.mega-sub-menu li.mega-menu-row {
+ 
+ background-repeat: no-repeat;
+ background-image: url("https://www.engr.uconn.edu/wp-content/uploads/2018/11/About-Mega.jpg") !important;
+ 
+}
+
+
+#mega-menu-item-1080 ul.mega-sub-menu li.mega-menu-row {
+
+ background-repeat: no-repeat;
+ background-image: url("https://www.engr.uconn.edu/wp-content/uploads/2018/11/Academic-Mega.jpg") !important;
+
+}
+
+#mega-menu-item-100 ul.mega-sub-menu li.mega-menu-row {
+
+ background-repeat: no-repeat;
+ background-image: url("https://www.engr.uconn.edu/wp-content/uploads/2018/11/Innovation-Mega-copy-copy.jpg") !important;
+
+}
+
+#mega-menu-item-1079 ul.mega-sub-menu li.mega-menu-row {
+
+ background-repeat: no-repeat;
+ background-image: url("https://www.engr.uconn.edu/wp-content/uploads/2019/01/Engage-Mega-copy-copy.jpg") !important;
+
+}
+
+#mega-menu-item-1081 ul.mega-sub-menu li.mega-menu-row {
+
+ background-repeat: no-repeat;
+ background-image: url("https://www.engr.uconn.edu/wp-content/uploads/2018/11/News-Mega.jpg") !important;
+
+}
+
+h2 span#site-name {
+    font-size: 30px;
+}
+ul.left-side-bar-class, ul.left-side-bar-class li ul.sub-menu{
+ 
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ line-height: 1.0;
+ 
+}
+
+ul.left-side-bar-class li{
+ 
+ display: block;
+ font-size: 1.2rem;
+ border-bottom: 1px solid #000;
+ 
+}
+
+div.menu-main-menu-container{
+ 
+ position: relative;
+ left: -25px;
+background-color: #f1f1f1;
+ 
+}
+
+ul.left-side-bar-class li ul.sub-menu {
+ 
+ display: none;
+ position:relative;
+left: 20px;
+
+}
+
+ul.left-side-bar-class li ul.sub-menu li{
+ 
+ font-size: 1rem;
+ border-bottom: 0;
+
+}
+
+ul.left-side-bar-class li:last-child{
+ 
+ border-bottom: 0;
+ 
+}
+
+ul.left-side-bar-class li.current_page_item ul.sub-menu, ul.left-side-bar-class li.current_page_ancestor ul.sub-menu {
+ 
+ display: inline;
+ 
+}
+
+ul.left-side-bar-class li.current_page_item ul.sub-menu li, ul.left-side-bar-class li.current_page_ancestor ul.sub-menu li{
+ 
+ padding-bottom: 15px;
+ 
+}
+
+ul.left-side-bar-class li.current_page_item a:before {
+ 
+content: ' >>';
+ 
+}
+
+ul.left-side-bar-class li.current_page_item ul li a:before {
+ 
+content: ' ';
+ 
+}
+
+ul.left-side-bar-class li a{
+ 
+display: block;
+padding: 10px 5px;
+color: #000;
+
+}
+
+ul.left-side-bar-class li ul.sub-menu li a{
+ 
+border-bottom: 0;
+color: #fe5200;
+padding: 0;
+
+}
+
+ul.left-side-bar-class li a:hover{
+ 
+background-color: #ccc;
+transition: 0.35s; 
+
+}
+
+ul.left-side-bar-class li ul.sub-menu li a:hover{
+ 
+background-color: rgba(0,0,0, 0);
+color: #ff0000;
+text-decoration: underline;
+transition: 0.35s;
+
+}
+
+ul.left-side-bar-class li.current-menu-parent ul.current-menu-item{
+ 
+ display: inline;
+ 
+}
+
+div#page-title-bar div.row div{
+ 
+ background-color: #fe5200;
+ 
+}
+
+div#page-title-bar h2{
+ 
+ color: #fff;
+ font-weight: bold;
+ font-size: 25px;
+  
+}
+/*
+.secondary-page-banner-area-widget{
+ 
+ border-top: 10px solid #fe5200;
+ 
+}
+*/
+#page-banner-bar{
+ 
+ background-repeat: repeat-x;
+ background-image: url("https://www.engr.uconn.edu/wp-content/uploads/2018/10/banner-bg-engr-white.jpg");
+ 
+}
+
+#left-footer-section {
+  
+padding-right: 5px;
+  
+}
+
+#left-footer-section div.textwidget p{
+  
+padding-left: 5px;
+font-size: 11px;
+  
+}
+
+#mainmenu li{
+ 
+  text-transform: uppercase;
+  
+}
+
+#right-footer-section{
+ 
+  color: #fff;
+  
+}
+
+#right-footer-section h4{
+ 
+  color: #9faab3;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+  
+}
+
+#right-footer-section p a{
+ 
+font-size: 12px;
+  color: #9faab3;
+  
+}
+
+#right-footer-section p a:hover{
+ 
+	text-decoration: underline;
+  background-color: inherit;
+  color: #ffffff;
+  transition: 0.25s;
+  
+}
+
+div.wp-caption p.wp-caption-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 108, 47, 0.7);
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.0;
+    padding: 5px;
+    margin-top: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+}
+
+.frontpage-image-cells .wp-caption-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 108, 47, 0.7);
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.0;
+    padding: 5px;
+    margin-top: 0;
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+}
+
+#mainmenu li a:hover{
+  
+  transition: 0.25s;
+	font-weight: bold !important;
+  
+}
+
+.aligncenter{
+ 
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/**** *****/
+
+.custom-column, .custom-columns {
+    position: relative;
+    float: left;
+}
+
+div.wp-caption p.wp-caption-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(14, 25, 57, 0.8);
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1.0;
+    padding: 5px;
+    padding-top: 10px;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+img.blue-border-radius-5{
+ 
+  border: 1px solid #000080;
+  border-radius: 5px;
+  margin: 1em;
+  padding: 0;
+  
+}
+
+.frontpage-image-cells:hover{
+ 
+  opacity: 0.7;
+  
+}
+
+.frontpage-image-cells img{
+  
+  position: relative;
+  
+}
+
+.frontpage-image-cells img.size-full{
+ 
+  width: 100%;
+  
+}
+
+.frontpage-image-cells{
+  
+  position: relative;
+  
+}
+
+.frontpage-image-cells .wp-caption-text{
+ 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 108, 47, 0.7);
+  color: #ffffff;
+
+font-weight: bold;
+line-height: 1.0;
+padding: 5px;
+margin-top: 0;
+  width: 100%;
+  min-height: 50px;
+  text-align: center;
+  
+}
+
+.wp-caption{
+  
+ width: 100% !important; 
+  
+}
+
+div.bigger-text p.wp-caption-text{
+    
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    
+}
+
+#facts-row h3, #facts-row p{
+    
+    text-align: center;
+    
+}
+
+#facts-row h3{
+    
+    color: #ff5200;
+    font-weight: bold;
+    font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+    font-size: 2.25rem;
+    
+}
+
+#facts-row p{
+    
+    font-weight: bold;
+    font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.25;
+    
+}
+
+#pg-w5bc73e3592f75-0{
+    
+    margin-bottom: 0 !important;
+    
+}
+
+#pg-77-2, #pl-77, body.home #body-box .row{
+/* 
+ width: 100%;
+ max-width: inherit;
+ */
+}
+
+#engr-our-future h3{
+ 
+ margin-top: 10px;
+ 
+}
+
+#engr-our-future p, #engr-our-future h3{
+ 
+ margin-bottom: 0;
+ 
+}
+
+body.home #contentsection, body.home #content-box {
+
+    min-height: 15px;
+    padding-bottom: 0;
+    padding-top: 0;
+
+}
+
+#contentsection a {
+	
+	color: #000e2f;	
+
+}
+
+#front-page-slider-obj{
+ 
+ width: 100%;
+ margin-right: auto;
+ margin-left: auto;
+ 
+}
+
+ul#mainmenu li a{
+ 
+ text-transform: uppercase;
+ font-weight: bold;
+ 
+}
+
+p a.support-button{
+ 
+position: relative;
+bottom: 0;
+right: 0;
+ 
+}
+
+a.support-button{
+ 
+ border: 1px solid #ccc;
+ color: #ff5200;
+ font-size: 16px;
+ font-weight: bold;
+ padding: 5px 20px;
+ text-transform: uppercase;
+	background-color: #fff;
+ 
+}
+
+a.support-button:hover{
+ 
+ background-color: #ff5200;
+ transition: 0.25s;
+	color: #fff;
+ 
+}
+
+ul.title-area{
+ 
+ background-color: #000;
+ 
+}
+
+.row-mod{
+ 
+ max-width: 62rem;
+ width: 100%;
+ 
+}
+
+.long-row{
+ 
+ clear: both;
+ display: block !important;
+ 
+}
+
+#footer-box .row {
+
+    margin: 0 auto;
+    max-width: 64.5rem !important;
+    width: 100%;
+}
+
+#footer-box .column, #footer-box .columns{
+
+
+}
+
+ul.menu li.current-menu-parent a{
+
+ color: #ff5200 !important;
+ 
+}
+
+@media only screen and (max-width: 768px) {
+
+#mega-menu-wrap-mainmenu #mega-menu-mainmenu li.mega-menu-item.mega-menu-megamenu ul.mega-sub-menu li ul.mega-sub-menu li a{
+ 
+border-bottom: 0; 
+ 
+
+}
+
+ 
+ #mega-menu-wrap-mainmenu #mega-menu-mainmenu li.mega-menu-item.mega-menu-megamenu ul.mega-sub-menu li ul.mega-sub-menu li ul.mega-sub-menu li ul.mega-sub-menu {
+
+    display: block !important;
+
+}
+ 
+ div.menu-main-menu-container{
+ 
+ position: relative;
+ left: 0;
+ background-color: #f1f1f1;
+ 
+}
+
+ul.left-side-bar-class li ul.sub-menu {
+ 
+ position:relative;
+ left: 25px; 
+}
+
+#footer-box .column, #footer-box .columns{
+
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+
+}
+
+}
+
+@media only screen and (max-width: 690px) {
+
+ #search-index-box, p a.support-button {
+  
+        display: none;
+    }
+/*
+ #search-index-box, #uc-fn, p a.support-button, #uc-sep{
+  
+        display: none;
+    }
+
+*/	
+	
+#left-footer-section div.textwidget p, #right-footer-section p a {
+
+    font-size: 14px;
+}
+
+#left-footer-section {
+    border-right: 0;
+
+}
+
+#footer-box .column, #footer-box .columns {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    
+}
+
+#mega-menu-item-98 ul.mega-sub-menu li.mega-menu-row, #mega-menu-item-99 ul.mega-sub-menu li.mega-menu-row, #mega-menu-item-100 ul.mega-sub-menu li.mega-menu-row, #mega-menu-item-101 ul.mega-sub-menu li.mega-menu-row, #mega-menu-item-102 ul.mega-sub-menu li.mega-menu-row{
+ 
+border-top: 0px !important; 
+border-bottom: 0px !important;
+min-height: inherit !important;
+ 
+}
+
+}
