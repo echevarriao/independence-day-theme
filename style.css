@@ -1,0 +1,541 @@
+/*
+ *
+
+Theme Name: School of Engineering Independence Day Theme
+Theme URI: http://www.engr.uconn.edu/
+Author: School of Engineering Communications Group
+Author URI: http://www.engr.uconn.edu/
+Description: The School of Engineering Independence Day theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, three-columns right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: independence-day
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+ *
+ */
+
+.long-row{
+    
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+        
+}
+
+body{
+    
+    background-color: #000e2f;
+    
+}
+
+#header-bar{
+    
+    height: 60px;
+    width: 100%;
+    background-color: #000e2f;
+    
+}
+
+#header-box {
+
+padding-top: 5px;
+
+}
+
+#content-box a {
+	
+	text-decoration: underline;
+	color: #000e2f;
+	
+}
+
+
+#content-box a:hover {
+	
+	text-decoration: none;
+	color: #c1c1c1;
+	
+}
+
+#bannertop{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#bannertop li{
+    
+    display: inline
+    
+}
+
+#bannertop li div{
+    
+    position: relative;
+    float: left;
+    
+}
+
+.uc-bluebg{
+    
+    background-color: #000e2f;    
+    
+}
+
+#uc-sep{
+
+    padding: 12px 9px;    
+    
+}
+
+#uc-fn{
+    
+    padding: 10px 0;    
+    
+}
+
+#iconsbox{
+    
+    margin: 0;
+    padding:10px;
+    list-style: none;
+    float: right;
+    
+}
+
+#iconsbox li {
+    
+    display: inline-table;
+    
+}
+
+#iconsbox li div{
+    
+    /* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+/*    
+  background: #304994;
+  background-image: -webkit-linear-gradient(top, #304994, #1c3173);
+  background-image: -moz-linear-gradient(top, #304994, #1c3173);
+  background-image: -ms-linear-gradient(top, #304994, #1c3173);
+  background-image: -o-linear-gradient(top, #304994, #1c3173);
+  background-image: linear-gradient(to bottom, #304994, #1c3173);
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px; */
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+/*
+  border-top: solid #3957b0 1px;
+  border-right: solid #1e2b51 1px;
+  border-bottom: solid #1e2b51 1px;
+  border-left: solid #3957b0 1px; 
+	
+    border-radius: 5px;
+	
+	
+	*/
+  text-decoration: none;
+  
+    height: 32px;
+    width: 32px;
+/*    border: 1px solid #1e2b51; */
+    text-align: center;
+/*    -webkit-box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+    -moz-box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+    box-shadow: 1px 1px 0px 0px rgba(57,87,176,1);
+    box-shadow: 1px 1px 0px #3957B0 inset; */
+line-height: 32px;
+
+}
+
+#iconsbox li div:hover{
+    
+    background-image: none;
+    background-color: #263961;
+
+}
+
+#iconsbox li div img{
+    
+    border: 0;
+    height: 20px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#iconsbox li div a {
+    
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    height: 32px;
+    
+}
+
+/* end banner */
+
+/* start UConn signature */
+
+span#uconn-signature {
+    
+    font-family: "uconn_extendedregular", arial, helvetica, sans-serif;
+    font-size: 32px;
+	letter-spacing: 3px;
+        
+}
+
+span#uconn-signature a{
+    
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+span#uconn-fullname {
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: .055em;
+	word-spacing: .02em;    
+	font-weight: bold;
+    
+}
+
+span#uconn-fullname a{
+    
+    color: #9faab2;
+    text-decoration: none;
+    
+}
+
+#separator{
+    
+    font-size: 18px;
+    color: #a1a1a1;
+    
+}
+
+/* start secondary section - site/organization name */
+
+#title-box h2{
+    
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+h2 span#site-name{
+    
+    font-weight: 500;
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-size: 24px;
+    
+}
+
+h2 span#site-name a{
+    
+    color: #0b1860;
+    text-decoration: none;
+    padding-left: 12px;
+    
+}
+
+h2 span#site-name a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+h2 span#parent-org{
+    
+    font-family: "Proxima Nova", arial, helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+h2 span#parent-org a{
+    
+     color: #ffffff;
+     text-decoration: none;
+}
+
+#site-title-section{
+    
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    line-height: 1.0;
+    
+}
+
+#title-bar{
+    
+    background-color: #000e2f;
+
+}
+
+/* top menu bar */
+
+#top-menu-bar{
+    
+    background-color: #eeeef1;
+    
+}
+
+#topmenubar{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    
+}
+
+#topmenubar li{
+    
+    display: inline;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    
+}
+
+#topmenubar li a{
+    
+    color: #818284;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+#topmenubar li a:hover{
+    
+    color: #008cba;
+    text-decoration: underline;
+    background-color: #ffffff;
+    
+}
+
+/* main menu */
+
+#main-menu-bar{
+    
+    background-color: #ffffff;
+    
+}
+
+.mainmenubackground{
+    
+    background-color: #006634;
+    opacity: 0.8;
+    
+}
+
+a .menu_title:hover{
+    
+    color: #ffffff;
+    
+}
+
+.submenu-items li a:hover{
+    
+    color: #e1e1e1;
+    text-decoration: underline;
+    
+}
+
+li:hover a.menu-item-link{
+    
+    color: #ffffff !important;
+    
+}
+
+.block-sub-menu:hover < a .menu_title{
+    
+    color: #ffffff;
+    
+}
+
+/* content body section */
+
+#contentsection, #content-box{
+    
+    background-color: #ffffff;
+    min-height: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    display: block;
+    
+}
+
+.content-title{
+    
+    font-family: 'Proxima Nova', arial, helvetica, sans-seif;
+    font-weight: bold;
+    
+}
+
+/* sub footer-box, if active */
+
+#subfooter-box{
+    
+    padding-top: 10px;
+    min-width: 100px;
+    background-color: #e1e1e1;
+    
+}
+
+/* footer */
+
+#footer-box{
+    
+    background-color: #000e2f;
+    min-height: 125px;
+    padding-top: 20px;
+    
+}
+
+ul#default-footer{
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul#default-footer li{
+    
+    display: inline;
+    font-size: 12px;
+    font-family: arial, helvetica, sans-serif;
+    
+}
+
+ul#default-footer li a{
+    
+    color: #ffffff;
+    padding: 5px;
+    
+}
+
+ul#default-footer li a:hover{
+    
+    text-decoration: underline;
+    
+}
+
+
+/* util classes */
+
+.txt-white, .txt-white .post-edit-link{
+    
+    color: #ffffff;
+    font-weight: bold;
+    
+}
+
+.alignright{
+    
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    float: right;
+    
+}
+
+.alignleft{
+    
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    float: left;
+    
+}
+
+.aligncenter{
+    
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    
+}
+
+#category-column{
+    
+    
+    
+}
+
+.category-row{
+    
+    transition: 0.25s;
+    padding: 5px;
+    
+}
+
+.is-on{
+    
+background: #f1f1f1; /* Old Browsers */
+background: -webkit-linear-gradient(top,#f1f1f1,#ffffff); /*Safari 5.1-6*/
+background: -o-linear-gradient(top,#f1f1f1,#ffffff); /*Opera 11.1-12*/
+background: -moz-linear-gradient(top,#f1f1f1,#ffffff); /*Fx 3.6-15*/
+background: linear-gradient(to bottom, #f1f1f1, #ffffff); /*Standard*/
+
+}
+
+.is-off{
+    
+    background-color: inherit;
+    
+}
+
+ul.mybreadcrumbs{
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul.mybreadcrumbs > li{
+    
+    display: inline;
+    font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+    
+}
+
+ul.mybreadcrumbs li a{
+    
+	color: #000000;
+	font-family: 'Proxima Nova', arial, helvetica, sans-serif;
+    
+}
+
+@media only screen and (max-width: 480px) {
+	
+	#uc-fn, #uc-sep {
+		
+		display: none;
+		
+	}
+	
+}
